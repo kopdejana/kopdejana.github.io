@@ -1,3 +1,9 @@
-$primary-color: #0a0a0a;
+$primary-color: #0b0b0b;
 $secondary-color: #fff;
-$accent-color: #ff0048;
+$accent-color: hsl(350, 100%, 50%);
+$accent-color-transparent: hsla(350, 100%, 50%, 0.475);
+$darker-accent-color: hsl(348, 100%, 7%);
+$darker-accent-color-transparent: hsla(350, 100%, 10%, 0.478);
+
+$glow-effect-small: 3px 3px 20px $accent-color-transparent, -3px -3px 20px $accent-color-transparent;
+$glow-effect-big: 5px 5px 40px $accent-color-transparent, -5px -5px 40px $accent-color-transparent;
