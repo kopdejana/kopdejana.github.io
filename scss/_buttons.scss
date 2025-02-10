@@ -1,0 +1,29 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(
+        $accent-color,
+        $darker-accent-color
+    );
+    padding: 1rem;
+    border: 1px $accent-color solid;
+    border-radius: 25px;
+    box-shadow: $glow-effect-small;
+    width: 200px;
+    height: $font-size*3;
+}
+
+#mailBtn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 999;
+    text-align: center;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    span {
+        font-size: 2rem;
+    }
+}
