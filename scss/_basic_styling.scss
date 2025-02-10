@@ -31,3 +31,11 @@ a {
 h1 {
     color: $accent-color;
 }
+
+svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: $accent-color;
+    margin: 0.5rem;
+    box-shadow: $text-shadow;
+}
