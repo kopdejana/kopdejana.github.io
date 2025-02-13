@@ -147,16 +147,16 @@ header {
   font-size: 1.5rem;
   border-bottom: 0.1rem solid hsla(350, 100%, 50%, 0.475);
 }
-header .menuBtn {
+header #menuBtn {
   display: none;
 }
 @media (max-width: 800px) {
-  header .menuBtn {
+  header #menuBtn {
     display: block;
     margin-left: auto;
   }
 }
-header .menuBtn:hover {
+header #menuBtn:hover {
   cursor: pointer;
 }
 header .logo {
@@ -324,34 +324,34 @@ header div span {
   width: 300px;
 }
 
-.responsiveNav {
-  position: absolute;
+#responsiveNav {
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 101;
-  display: block;
+  display: none;
   background-color: #0b0b0b;
   opacity: 99%;
   width: 100vw;
   height: 100vh;
 }
-.responsiveNav div {
+#responsiveNav div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 2rem;
 }
-.responsiveNav div a {
+#responsiveNav div a {
   font-size: 2rem;
   font-weight: bold;
   color: hsl(350, 100%, 50%);
 }
-.responsiveNav div svg {
+#responsiveNav div #closeBtn {
   width: 2rem;
   height: 2rem;
   color: #fff;
 }
-.responsiveNav div svg:hover {
+#responsiveNav div #closeBtn:hover {
   cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

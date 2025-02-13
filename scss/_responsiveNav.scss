@@ -1,9 +1,9 @@
-.responsiveNav {
-    position: absolute;
+#responsiveNav {
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 101;
-    display: block;
+    display: none;
     background-color: $primary-color;
     opacity: 99%;
     width: 100vw;
@@ -20,7 +20,7 @@
             color: $accent-color;
         }
 
-        svg {
+        #closeBtn {
             width: 2rem;
             height: 2rem;
             color: $secondary-color;

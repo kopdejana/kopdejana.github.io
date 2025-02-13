@@ -13,7 +13,7 @@ header {
     font-size: 1.5rem;
     border-bottom: 0.1rem solid $accent-color-transparent;
 
-    .menuBtn {
+    #menuBtn {
         display: none;
         @media (max-width: 800px) {
             display: block;
