@@ -1,0 +1,46 @@
+#home {
+    background: url('../imgs/texture.png');
+    background-repeat: repeat-x;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textContent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+
+    h1 {
+        margin: 0.5rem;
+    }
+
+    p {
+        margin: 5px 0;
+    }
+
+    div {
+        margin: 2rem 0;
+    }
+
+}
+
+.imgContent {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(
+        $accent-color,
+        $primary-color
+    );
+    border-radius: 50%;
+    box-shadow: $glow-effect-big;
+}
