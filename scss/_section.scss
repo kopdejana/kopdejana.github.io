@@ -6,4 +6,9 @@ section {
     justify-content: center;
     align-items: center;
     border-bottom: 0.01rem solid $accent-color;
+    background: linear-gradient(
+        45deg,
+        $darker-accent-color,
+        $primary-color
+    );
 }

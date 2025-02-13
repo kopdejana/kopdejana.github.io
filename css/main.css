@@ -111,6 +111,7 @@ section {
   justify-content: center;
   align-items: center;
   border-bottom: 0.01rem solid hsl(350, 100%, 50%);
+  background: linear-gradient(45deg, hsl(348, 100%, 7%), #0b0b0b);
 }
 
 footer {
@@ -242,7 +243,7 @@ header div span {
   padding: 15%;
 }
 #skills img {
-  height: 150px;
+  height: 80px;
   width: auto;
 }
 
