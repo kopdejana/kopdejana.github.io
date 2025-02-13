@@ -13,6 +13,17 @@ header {
     font-size: 1.5rem;
     border-bottom: 0.1rem solid $accent-color-transparent;
 
+    .menuBtn {
+        display: none;
+        @media (max-width: 800px) {
+            display: block;
+            margin-left: auto;
+        }
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
     .logo {
         display: block;
         width: 200px;
@@ -20,6 +31,10 @@ header {
         font-weight: bolder;
         color: $accent-color;
         margin-right: auto;
+        @media (max-width: 800px) {
+            margin-right: 0;
+            width: 100px;
+        }
     }
 
     nav {
@@ -28,6 +43,9 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        @media (max-width: 800px) {
+            display: none;
+        }
         a {
             margin: 25px;
             font-weight: bold;
@@ -45,6 +63,9 @@ header {
         justify-content: center;
         align-items: center;
         margin-left: auto;
+        @media (max-width: 800px) {
+            margin-left: 0;
+        }
         p {
             margin-left: 5px;
         }
