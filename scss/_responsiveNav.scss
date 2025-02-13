@@ -1,0 +1,32 @@
+.responsiveNav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    display: block;
+    background-color: $primary-color;
+    opacity: 99%;
+    width: 100vw;
+    height: 100vh;
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        a {
+            font-size: 2rem;
+            font-weight: bold;
+            color: $accent-color;
+        }
+
+        svg {
+            width: 2rem;
+            height: 2rem;
+            color: $secondary-color;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

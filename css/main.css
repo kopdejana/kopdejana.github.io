@@ -93,7 +93,7 @@ svg {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  z-index: 999;
+  z-index: 100;
   text-align: center;
   border-radius: 50%;
   width: 80px;
@@ -322,4 +322,36 @@ header div span {
 
 #contact .btn {
   width: 300px;
+}
+
+.responsiveNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 101;
+  display: block;
+  background-color: #0b0b0b;
+  opacity: 99%;
+  width: 100vw;
+  height: 100vh;
+}
+.responsiveNav div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.responsiveNav div a {
+  font-size: 2rem;
+  font-weight: bold;
+  color: hsl(350, 100%, 50%);
+}
+.responsiveNav div svg {
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+}
+.responsiveNav div svg:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
