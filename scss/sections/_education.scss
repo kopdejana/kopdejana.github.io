@@ -1,0 +1,17 @@
+#education .content {
+    display: flex;
+    a {
+        margin: 2rem;
+        img {
+            width: 300px;
+            height: 300px;
+            border: 2px solid $accent-color;
+            box-shadow: $glow-effect-small;
+        }
+    }
+}
+
+
+
+
+
