@@ -255,4 +255,8 @@ header div span {
   height: 300px;
   border: 2px solid hsl(350, 100%, 50%);
   box-shadow: 3px 3px 20px hsla(350, 100%, 50%, 0.475), -3px -3px 20px hsla(350, 100%, 50%, 0.475);
+}
+
+#contact .btn {
+  width: 300px;
 }/*# sourceMappingURL=main.css.map */
