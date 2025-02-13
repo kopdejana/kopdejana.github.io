@@ -190,7 +190,7 @@ header div span {
 
 .content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -218,9 +218,11 @@ header div span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: radial-gradient(hsl(350, 100%, 50%), #0b0b0b);
+  background: url("../../imgs/profile.jpg");
+  background-size: contain;
+  border: 2px solid hsl(350, 100%, 50%);
   border-radius: 50%;
-  box-shadow: 5px 5px 40px hsla(350, 100%, 50%, 0.475), -5px -5px 40px hsla(350, 100%, 50%, 0.475);
+  box-shadow: 3px 3px 20px hsla(350, 100%, 50%, 0.475), -3px -3px 20px hsla(350, 100%, 50%, 0.475);
 }
 
 #education .content {
