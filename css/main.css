@@ -105,11 +105,12 @@ svg {
 
 section {
   width: 99vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 3rem 3rem;
   border-bottom: 0.01rem solid hsl(350, 100%, 50%);
   background: linear-gradient(45deg, hsl(348, 100%, 7%), #0b0b0b);
 }
@@ -186,13 +187,19 @@ header div span {
 
 #home {
   background: url("../imgs/texture.png");
-  background-repeat: repeat-x;
+  background-repeat: repeat;
 }
 
 .content {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+@media (max-width: 1000px) {
+  .content {
+    flex-direction: column;
+    padding: 4rem 0;
+  }
 }
 
 .textContent {
@@ -202,6 +209,12 @@ header div span {
   justify-content: center;
   align-items: center;
   padding: 2rem 0;
+}
+@media (max-width: 1000px) {
+  .textContent {
+    width: 100%;
+    padding: 3rem 2rem;
+  }
 }
 .textContent h1 {
   margin: 0.5rem;
@@ -216,18 +229,28 @@ header div span {
 .imgContent {
   width: 400px;
   height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: url("../../imgs/profile.jpg");
   background-size: contain;
   border: 2px solid hsl(350, 100%, 50%);
   border-radius: 50%;
   box-shadow: 3px 3px 20px hsla(350, 100%, 50%, 0.475), -3px -3px 20px hsla(350, 100%, 50%, 0.475);
+  margin: 2rem;
+}
+@media (max-width: 600px) {
+  .imgContent {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 #education .content {
   display: flex;
+  flex-direction: row;
+}
+@media (max-width: 800px) {
+  #education .content {
+    flex-direction: column;
+  }
 }
 #education .content a {
   margin: 2rem;
@@ -239,19 +262,28 @@ header div span {
   box-shadow: 3px 3px 20px hsla(350, 100%, 50%, 0.475), -3px -3px 20px hsla(350, 100%, 50%, 0.475);
 }
 
-#skills {
-  padding: 15%;
+#skills .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-#skills img {
+#skills .content img {
   height: 80px;
   width: auto;
 }
 
 #projects .content {
   display: flex;
+  flex-direction: row;
+}
+@media (max-width: 800px) {
+  #projects .content {
+    flex-direction: column;
+  }
 }
 #projects .content a {
-  margin: 2rem;
+  margin: 1rem;
 }
 #projects .content a img {
   width: 300px;
