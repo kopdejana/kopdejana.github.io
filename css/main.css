@@ -234,4 +234,12 @@ header div span {
   height: 300px;
   border: 2px solid hsl(350, 100%, 50%);
   box-shadow: 3px 3px 20px hsla(350, 100%, 50%, 0.475), -3px -3px 20px hsla(350, 100%, 50%, 0.475);
+}
+
+#skills {
+  padding: 15%;
+}
+#skills img {
+  height: 150px;
+  width: auto;
 }/*# sourceMappingURL=main.css.map */
