@@ -2,16 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(
-        $accent-color,
-        $darker-accent-color
-    );
+    background-color: $accent-color;
     padding: 1rem;
     border: 1px $accent-color solid;
-    border-radius: 25px;
-    box-shadow: $glow-effect-small;
+    border-radius: 5px;
     width: 200px;
     height: $font-size*3;
+    font-weight: bold;
+    box-shadow: $glow-effect-small;
 }
 
 #mailBtn {

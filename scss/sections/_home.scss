@@ -1,6 +1,9 @@
 #home {
     background: url('../imgs/texture.png');
     background-repeat: repeat;
+    h1 {
+        text-transform: none;
+    }
 }
 
 .content {
@@ -41,15 +44,14 @@
 }
 
 .imgContent {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     @media (max-width: 600px) {
         width: 200px;
         height: 200px;
     }
     background: url("../../imgs/profile.jpg");
     background-size: contain;
-    border: 2px solid $accent-color;
     border-radius: 50%;
     box-shadow: $glow-effect-small;
     margin: 2rem;

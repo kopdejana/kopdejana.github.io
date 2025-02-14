@@ -5,5 +5,5 @@ $accent-color-transparent: hsla(350, 100%, 50%, 0.475);
 $darker-accent-color: hsl(348, 100%, 7%);
 $darker-accent-color-transparent: hsla(350, 100%, 10%, 0.478);
 
-$glow-effect-small: 3px 3px 20px $accent-color-transparent, -3px -3px 20px $accent-color-transparent;
-$glow-effect-big: 5px 5px 40px $accent-color-transparent, -5px -5px 40px $accent-color-transparent;
+$glow-effect-small: 3px 3px 20px black;
+$glow-effect-big: 5px 5px 60px rgba(0, 0, 0, 0.61);
