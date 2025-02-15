@@ -321,10 +321,14 @@ header div span {
     flex-direction: column;
   }
 }
-#projects .content a {
+#projects .content .projectCard {
+  width: 300px;
   margin: 2rem;
 }
-#projects .content a img {
+#projects .content .projectCard p {
+  text-wrap-mode: wrap;
+}
+#projects .content .projectCard a img {
   width: 300px;
   height: 300px;
   box-shadow: 3px 3px 20px black;
