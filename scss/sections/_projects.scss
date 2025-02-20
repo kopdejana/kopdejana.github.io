@@ -6,7 +6,10 @@
     }
     .projectCard {
         width: 300px;
-        margin: 2rem;
+        background-color: rgb(238, 232, 232);
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5px;
         p {
             text-wrap-mode: wrap;
         }
@@ -14,7 +17,7 @@
             img {
                 width: 300px;
                 height: 300px;
-                box-shadow: $glow-effect-small;
+                border-radius: 5px;
             }
         }
     }
