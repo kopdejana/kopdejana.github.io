@@ -1,13 +1,8 @@
 @import "./colors";
-@import "./text";
-@import "./basic_styling";
-@import "./buttons";
-@import "./section";
-@import "./footer";
+
+body {
+    width: 99vw;
+    background-color: $primary-color;
+}
+
 @import "./header";
-@import "./sections/home";
-@import "./sections/education";
-@import "./sections/skills";
-@import "./sections/projects";
-@import "./sections/contact";
-@import "./responsiveNav";
