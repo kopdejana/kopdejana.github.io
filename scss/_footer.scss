@@ -1,15 +1,34 @@
 footer {
     width: 100%;
-    display: flex;
+    background-color: $secondary-color;
+    color: white;
+    justify-content: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5rem;
-    background-color: $primary-color;
-    div {
-        margin: 1rem;
-    }
-    p {
-        text-align: center;
+    padding: 100px 0;
+    .content {
+        margin: 0 auto;
+        width: 12*75px + 11*20px;
+        justify-content: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a {
+            color: white;
+            margin: 10px;
+            svg {
+                width: 20px;
+                height: 20px;
+            }
+        }
+        p {
+            text-align: center;
+        }
     }
 }

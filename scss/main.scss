@@ -1,8 +1,32 @@
 @import "./colors";
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 99vw;
     background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
 }
 
 @import "./header";
+@import "./buttons";
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@import "./section";
+@import "./sections/home";
+@import "./sections/skills";
+@import "./sections/education";
+@import "./sections/projects";
+@import "./sections/contact";
+@import "./footer";
