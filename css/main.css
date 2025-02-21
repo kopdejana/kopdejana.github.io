@@ -144,6 +144,7 @@ main {
 section {
   width: 100%;
   min-height: 100vh;
+  padding: 40px 0 10px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -171,6 +172,9 @@ section h1 {
 }
 
 #home {
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  padding: 100px 0 10px 0;
   background: radial-gradient(circle at top left, rgb(36, 13, 13), rgba(255, 255, 255, 0)), radial-gradient(circle at top right, rgb(23, 16, 35), rgba(255, 255, 255, 0)), radial-gradient(circle at bottom right, rgb(29, 14, 26), rgba(255, 255, 255, 0)), radial-gradient(circle at bottom left, rgb(32, 25, 37), rgba(255, 255, 255, 0)), url("../../imgs/texture.png");
   color: #faf7f7;
 }
