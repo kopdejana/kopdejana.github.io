@@ -1,7 +1,7 @@
 footer {
     width: 100%;
     background-color: $secondary-color;
-    color: white;
+    color: $primary-color;
     justify-content: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +23,7 @@ footer {
             align-items: center;
         }
         a {
-            color: white;
+            color: $primary-color;
             margin: 10px;
             svg {
                 width: 20px;
