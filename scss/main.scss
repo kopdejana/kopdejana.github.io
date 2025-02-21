@@ -13,6 +13,13 @@ body {
     margin: 0;
 }
 
+h1, h2, h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 @import "./header";
 @import "./buttons";
 

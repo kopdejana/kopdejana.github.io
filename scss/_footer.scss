@@ -10,6 +10,9 @@ footer {
     .content {
         margin: 0 auto;
         width: 12*75px + 11*20px;
+        @media (max-width: (12*75px + 11*20px)) {
+            width: 100%;
+        }
         justify-content: flex;
         flex-direction: column;
         justify-content: center;

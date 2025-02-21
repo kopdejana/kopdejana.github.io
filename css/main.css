@@ -11,6 +11,13 @@ body {
   margin: 0;
 }
 
+h1, h2, h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 header {
   position: fixed;
   left: 0;
@@ -30,6 +37,12 @@ header .content {
   display: flex;
   justify-content: left;
   align-items: center;
+}
+@media (max-width: 1120px) {
+  header .content {
+    width: 90%;
+    padding: 0 10px;
+  }
 }
 header .content .logo {
   font-family: "Poppins", sans-serif;
@@ -144,15 +157,22 @@ section .content {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 1120px) {
+  section .content {
+    width: 100%;
+  }
+}
 section h1 {
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   margin-bottom: 4rem;
+  font-weight: 500;
 }
 
 #home {
   background: radial-gradient(circle at top left, rgb(36, 13, 13), rgba(255, 255, 255, 0)), radial-gradient(circle at top right, rgb(23, 16, 35), rgba(255, 255, 255, 0)), radial-gradient(circle at bottom right, rgb(29, 14, 26), rgba(255, 255, 255, 0)), radial-gradient(circle at bottom left, rgb(32, 25, 37), rgba(255, 255, 255, 0)), url("../../imgs/texture.png");
+  background-clip: border-box;
   color: #faf7f7;
 }
 #home h1, #home h2, #home h3 {
@@ -231,19 +251,19 @@ section h1 {
   }
 }
 #projects .content .projectCard {
-  width: 300px;
+  width: 400px;
   background-color: rgba(93, 18, 131, 0.12);
   margin: 20px;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 #projects .content .projectCard p {
   text-wrap-mode: wrap;
 }
 #projects .content .projectCard a img {
-  width: 300px;
-  height: 300px;
-  border-radius: 5px;
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
 }
 
 footer {
@@ -263,6 +283,11 @@ footer .content {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 1120px) {
+  footer .content {
+    width: 100%;
+  }
 }
 footer .content div {
   display: flex;
