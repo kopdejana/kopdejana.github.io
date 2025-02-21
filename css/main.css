@@ -30,6 +30,11 @@ header {
   background-color: #faf7f7;
   border-bottom: 0.01rem solid rgba(0, 0, 0, 0.284);
 }
+@media (max-width: 1120px) {
+  header {
+    height: 80px;
+  }
+}
 header .content {
   position: absolute;
   margin: 0 auto;
@@ -90,6 +95,8 @@ header .content .btn:hover {
 }
 
 #menuBtn {
+  width: 32px;
+  height: 32px;
   display: none;
 }
 @media (max-width: 1120px) {
@@ -254,7 +261,7 @@ section h1 {
   }
 }
 #projects .content .projectCard {
-  width: 400px;
+  width: 350px;
   background-color: rgba(93, 18, 131, 0.12);
   margin: 20px;
   padding: 20px;
@@ -264,9 +271,17 @@ section h1 {
   text-wrap-mode: wrap;
 }
 #projects .content .projectCard a img {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 15px;
+}
+
+#contact {
+  background-color: rgba(93, 18, 131, 0.12);
+}
+#contact .btn {
+  padding: 20px 30px;
+  border-radius: 45px;
 }
 
 footer {
@@ -307,4 +322,40 @@ footer .content a svg {
 }
 footer .content p {
   text-align: center;
+}
+
+#responsiveNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 101;
+  display: none;
+  background-color: #090505;
+  opacity: 98%;
+  width: 100vw;
+  height: 100vh;
+}
+#responsiveNav div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+#responsiveNav div a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #faf7f7;
+  margin: 1rem;
+}
+#responsiveNav div #closeBtn {
+  width: 2rem;
+  height: 2rem;
+  color: #faf7f7;
+}
+#responsiveNav div #closeBtn:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

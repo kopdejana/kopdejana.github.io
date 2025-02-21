@@ -5,6 +5,9 @@ header {
     top: 0;
     width: 100%;
     height: 120px;
+    @media (max-width: (12*75px + 11*20px)) {
+        height: 80px;
+    }
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,6 +77,8 @@ header {
 }
 
 #menuBtn {
+    width: 32px;
+    height: 32px;
     display: none;
     @media (max-width: (12*75px + 11*20px)) {
         display: block;
