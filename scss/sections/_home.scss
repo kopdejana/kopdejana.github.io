@@ -1,17 +1,37 @@
 #home {
 
+    background: 
+        radial-gradient(circle at top left, rgb(36, 13, 13), rgba(255, 255, 255, 0)),
+        radial-gradient(circle at top right, rgb(23, 16, 35), rgba(255, 255, 255, 0)),
+        radial-gradient(circle at bottom right, rgb(29, 14, 26), rgba(255, 255, 255, 0)),
+        radial-gradient(circle at bottom left, rgb(32, 25, 37), rgba(255, 255, 255, 0)),
+        url("../../imgs/texture.png")
+    ;
+
+    color: $primary-color;
+
     h1, h2, h3 {
+        display: flex;
         font-weight: normal;
         text-align: center;
     }
     h1 {
         font-weight: 600;
-        font-size: 2.5rem;
+        font-size: 3rem;
         margin: 1rem 0;
     }
     h2 {
         font-weight: 400;
         font-size: 1.2rem;
+    }
+
+    .city {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span {
+            margin-right: 5px;
+        }
     }
 
     .textContent {
@@ -23,14 +43,15 @@
     }
 
     .socials {
+        margin-top: 24px;
         display: flex;
         justify-content: center;
         align-items: center;
         svg {
-            width: 32px;
-            height: 32px;
+            width: 24px;
+            height: 24px;
             margin: 16px;
-            color: $secondary-color;
+            color: $primary-color;
         }
     }
 
@@ -40,4 +61,5 @@
         align-items: center;
         margin: 32px 0;
     }
+
 }
