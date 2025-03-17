@@ -200,8 +200,7 @@ section h1 {
 }
 
 #home {
-  min-height: -moz-fit-content;
-  min-height: fit-content;
+  min-height: 70vh;
   padding: 120px 0 30px 0;
   background: radial-gradient(circle at top left, rgb(11, 11, 11), rgba(255, 255, 255, 0)), radial-gradient(circle at top right, rgb(17, 17, 17), rgba(255, 255, 255, 0)), radial-gradient(circle at bottom right, rgb(10, 10, 10), rgba(255, 255, 255, 0)), radial-gradient(circle at bottom left, rgb(14, 14, 14), rgba(255, 255, 255, 0)), url("../../imgs/texture.png");
   color: #faf7f7;
